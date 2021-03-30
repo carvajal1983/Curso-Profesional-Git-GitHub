@@ -143,3 +143,103 @@
 # Recuerda que debes habilitar la opción de ver la extensión de los archivos, de lo contrario, 
 # solo podrás ver su nombre. La forma de hacerlo en Windows es Vista > Mostrar u ocultar > Extensiones de 
 # nombre de archivo.
+
+
+
+
+
+
+# Introducción a la terminal y línea de comandos:
+
+# Diferencias entre la estructura de archivos de Windows, Mac o Linux.
+
+# La ruta principal en Windows es C:\, en UNIX es solo /.
+# Windows no hace diferencia entre mayúsculas y minúsculas pero UNIX sí.
+# Recuerda que GitBash usa la ruta /c para dirigirse a C:\ (o /d para dirigirse a D:\) en Windows. 
+# Por lo tanto, la ruta del usuario con el que estás trabajando es 
+
+    /c/Users/Nombre_de_tu_usuario
+
+# Comandos básicos en la terminal:
+
+# pwd: Nos muestra la ruta de carpetas en la que te encuentras ahora mismo.
+
+    pwd
+
+# mkdir: Nos permite crear carpetas (por ejemplo, mkdir Carpeta-Importante).
+
+    mkdir NOMBRE_DE_LA_CARPETA
+    
+# touch: Nos permite crear archivos (por ejemplo, touch archivo.txt).
+
+    touch NOMBRE_ARCHIVO.EXTENSION
+
+# rm: Nos permite BORRAR un archivo o carpeta (por ejemplo, rm archivo.txt). 
+# Mucho cuidado con este comando, puedes borrar todo tu disco duro.
+
+    rm NOMBRE_ARCHIVO.EXTENSION
+
+# cat: Ver el contenido de un archivo (por ejemplo, cat nombre-archivo.txt).
+
+    cat NOMBRE_ARCHIVO.EXTENSION
+
+# ls: Nos permite cambiar ver los archivos de la carpeta donde estamos ahora mismo. 
+# Podemos usar uno o más ARGUMETOS para ver más información sobre estos archivos los argumentos pueden ser 
+# -- y el nombre del argumento ó 
+# - y una sola letra o shortcut por cada argumento).
+
+    ls
+
+# ls -a: Mostrar todos los archivos, incluso los ocultos.
+
+    ls -a
+
+# ls -l: Ver todos los archivos como una lista.
+
+    ls -l
+
+# cd: Nos permite navegar entre carpetas.
+
+    cd
+
+# cd /: Ir a la ruta principal:
+
+    cd /
+
+# cd o cd ~: Ir a la ruta de tu usuario
+
+    cd ~
+
+# cd carpeta/subcarpeta: Navegar a una ruta dentro de la carpeta donde estamos ahora mismo.
+
+    cd carpeta/subcarpeta
+
+# cd .. (cd + dos puntos): Regresar una carpeta hacia atrás.
+
+    cd .. 
+
+# Si quieres referirte al directorio en el que te encuentras ahora mismo puedes usar cd . (cd + un punto).
+
+    cd .
+
+# history: Ver los últimos comandos que ejecutamos y un número especial con el que podemos repetir su ejecución.
+
+    history
+
+# ! + número: Ejecutar algún comando con el número que nos muestra el comando history (por ejemplo, !72).
+
+    !número
+
+# clear: Para limpiar la terminal. También podemos usar los atajos de teclado Ctrl + L o Command + L.
+
+    clear
+    
+# Todos estos comandos tiene una función de autocompletado, o sea, puedes escribir la primera parte 
+# y presionar la tecla Tab para que la terminal nos muestre todas las posibles carpetas o comandos 
+# que podemos ejecutar. Si presionas la tecla Arriba puedes ver el último comando que ejecutamos.
+
+# Recuerda que podemos descubrir todos los argumentos de un comando con el argumento 
+
+    --help 
+    
+(por ejemplo, cat --help).
