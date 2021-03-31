@@ -629,3 +629,40 @@ Recuerda que puedes obtener el ID de tus commits con el comando
 # para moverme entre ramas escribo lo siguiente: 
 
     git checkout NOMBRE_DE_LA_RAMA 
+
+
+
+
+
+
+
+
+
+# Fusión de ramas con Git merge: 
+
+# Crear un nuevo commit en la rama master combinando
+# los cambios de la rama RAMA1:
+
+    git checkout master
+
+    git merge NOMBRE_DE_LA_RAMA(BRANCH)
+
+# Crear un nuevo commit en la rama RAMA1 combinando
+# los cambios de cualquier otra rama:
+
+    git checkout NOMBRE_DE_LA_RAMA
+    
+    git merge cualquier-otra-rama
+
+
+# Asombroso, ¿verdad? Es como si Git tuviera super poderes para saber 
+# qué cambios queremos conservar de una rama y qué otros de la otra. 
+# El problema es que no siempre puede adivinar, sobretodo en algunos casos 
+# donde dos ramas tienen actualizaciones diferentes en ciertas líneas 
+# en los archivos. Esto lo conocemos como un conflicto y aprenderemos 
+# a solucionarlos en la siguiente clase.
+
+
+Recuerda que al ejecutar el comando git checkout para cambiar de rama o 
+# commit puedes perder el trabajo que no hayas guardado. 
+# Guarda tus cambios antes de hacer git checkout.
