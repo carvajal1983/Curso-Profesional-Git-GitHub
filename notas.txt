@@ -1,4 +1,4 @@
-# Curso Profesional de Git y GitHub
+# Curso Profesional de Git y GitHub por PLATZI 
 
 #¿Qué es Git?
 
