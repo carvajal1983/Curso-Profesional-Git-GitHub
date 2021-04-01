@@ -903,3 +903,73 @@ En Windows y Linux:
 # EJEMPLO: 
 
     git remote set-url origin git@github.com:carvajal1983/Curso-Profesional-Git-GitHub.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Los alias ayudan a poner una palabra como apodo de toda una sentencia para ahorrar tiempo
+
+# Crear un ALIAS:
+
+    alias NOMBRE_DE_ALIAS="COMANDO_QUE_QUIERES_PONERLE_UN_ALIAS"
+
+# Ejemplo:
+
+    alias estatus="git status"
+
+
+
+
+
+
+
+
+# Una forma de visualizar mejor los LOG es con el siguiente comando: 
+
+    git log --all --graph --decorate --oneline
+
+
+
+
+
+
+
+
+# Tags y versiones en Git y GitHub:
+
+# Los tags o etiquetas nos permiten asignar versiones a los commits con cambios más importantes o significativos de nuestro proyecto.
+
+# Comandos para trabajar con etiquetas:
+
+# Crear un nuevo tag y asignarlo a un commit: 
+
+    git tag -a nombre-del-tag -m "MI_MENSAJE" ID_DEL_COMMIT
+
+# Ejemplo:
+
+    git tag -a v1.2 -m "en esta version econtraras todo sobre tags" f058bf5
+    
+# Borrar un tag en el repositorio local: 
+
+    git tag -d nombre-del-tag
+
+# Listar los tags de nuestro repositorio local: 
+
+    git tag o git show-ref --tags.
+
+# Publicar un tag en el repositorio remoto: 
+
+    git push origin --tags.
+
+# Borrar un tag del repositorio remoto: 
+
+    git tag -d nombre-del-tag y git push origin :refs/tags/nombre-del-tag.
