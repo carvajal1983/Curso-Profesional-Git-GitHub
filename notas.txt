@@ -293,6 +293,11 @@
     git config --global user.email "tu@email.com"
     git config --global user.name "Tu Nombre"
 
+
+# Por si la embarras puedes editar los datos globales diretamente desde el bock de notas de Linux
+
+    git config --edit --global
+
 # Existen muchas otras configuraciones de Git que puedes encontrar ejecutando el comando 
 
     git config --list 
