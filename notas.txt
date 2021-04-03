@@ -1064,3 +1064,16 @@ En Windows y Linux:
 # usando el comando:
 
     gitk
+
+
+
+
+
+
+
+
+
+
+
+
+# esta es una inseret de prueba desde el estado de carmaster1983
