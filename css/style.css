@@ -25,9 +25,15 @@
 {
     text-align: center;
     color: royalblue;
+    
 }
 
 footer p
 {
     color: blue;
+}
+
+footer
+{
+    border: 2px solid black;
 }
