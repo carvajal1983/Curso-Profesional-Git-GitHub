@@ -7,7 +7,7 @@
 
 .miTitulo
 {
-    color: red;
+    color: rgb(255, 123, 0);
     text-align: center;
 }
 
@@ -30,10 +30,10 @@
 
 footer p
 {
-    color: blue;
+    color: rgb(255, 153, 0);
 }
 
 footer
 {
-    border: 2px solid black;
+    border: 2px solid rgba(255, 230, 0, 0.555);
 }
