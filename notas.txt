@@ -1117,4 +1117,4 @@ En Windows y Linux:
 # 7. Se aceptan los cambios en GitHub
 # 8. Se hace merge a master desde GitHub.
 
-# Importante: Cuando se modifica una rama, también se modifica el pull request.
+# IMPORTANTE: Cuando se modifica una rama, también se modifica el pull request.
