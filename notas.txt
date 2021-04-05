@@ -1087,3 +1087,4 @@ En Windows y Linux:
 # staging develop (servidores de pruebas) luego de que se realizan las pruebas 
 # pertinentes tanto de código como de la aplicación estos pasan a el servidor de 
 # producción con el ya antes mencionado merge request.
+
