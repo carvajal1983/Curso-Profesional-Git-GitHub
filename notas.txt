@@ -1067,7 +1067,7 @@ En Windows y Linux:
     git checkout footer
     git branch
 
-# Se hizo algunos cambios en las notas
+# Se hizo algunos cambios en el bloc de notas
 
     git status
     git commit -am "Vesión 21 - "Practica"
@@ -1113,3 +1113,31 @@ En Windows y Linux:
 # GitLab -> merge requests
 # bitbucket -> push requests
 
+
+
+
+
+
+
+
+
+
+
+
+
+# Utilizando Pull Requests en GitHub:
+
+
+# Ejercicio practico: 
+
+    
+    git status
+    
+    git branch fix-typo
+    git branch
+    git checkout fix-typo
+    git log
+
+# Se hizo algunos cambios en el bloc de notas
+
+    
