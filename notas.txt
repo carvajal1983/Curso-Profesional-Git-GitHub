@@ -1085,3 +1085,31 @@ En Windows y Linux:
 
 
 
+
+
+
+
+
+
+
+
+# Flujo de trabajo profesional con Pull requests:
+
+
+# En un entorno profesional normalmente se bloquea la rama master, y para enviar código a dicha rama pasa por un code review
+# y luego de su aprobación se unen códigos con los llamados merge request.
+
+# Para realizar pruebas enviamos el código a servidores que normalmente los llamamos staging develop (servidores de pruebas) 
+# luego de que se realizan las pruebas pertinentes tanto de código como de la aplicación estos pasan a el servidor de producción 
+# con el ya antes mencionado merge request.
+
+
+# El Pull requests es propio de GitHub y te permite que otros miembos del equipo puedan ver los cambios realizados en una rama 
+# y apruebarlos o no. 
+
+# Cuando se apruban estos cambios se auto ejecuntan el merge en staging.
+
+# github -> pull requests 
+# GitLab -> merge requests
+# bitbucket -> push requests
+
