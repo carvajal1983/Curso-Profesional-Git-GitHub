@@ -1144,3 +1144,5 @@ En Windows y Linux:
 
     git push origin fix-typo
     
+
+# Vamos a la cuenta de GitHub y nos ubicamos en la rama "fix-typo" y le damos clic en "Comparre & pull request"
