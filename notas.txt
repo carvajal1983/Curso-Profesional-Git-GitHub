@@ -1070,7 +1070,7 @@ En Windows y Linux:
 # Se hizo algunos cambios en el bloc de notas
 
     git status
-    git commit -am "Vesión 21 - "Practica"
+    git commit -am "Vesión 21 - Practica"
     
     git checkout footer
     git master
@@ -1140,4 +1140,7 @@ En Windows y Linux:
 
 # Se hizo algunos cambios en el bloc de notas
 
+    git commit -am "Vesión 23 - Utilizando Pull Requests en GitHub"
+
+    git push origin fix-typo
     
