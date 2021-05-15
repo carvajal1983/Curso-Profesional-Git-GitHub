@@ -1045,3 +1045,19 @@ En Windows y Linux:
 
 # Solo debemos entrar a la configuración de colaboradores de nuestro proyecto 
 # (Repositorio > Settings > Collaborators) y añadir el email o username de los nuevos colaboradores.
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Flujo de trabajo profesional: Haciendo merge de ramas de desarrollo a master
+
+# se practico una modificación en el footer y se hizo merge desde el master a footer 
