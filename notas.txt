@@ -1061,3 +1061,27 @@ En Windows y Linux:
 # Flujo de trabajo profesional: Haciendo merge de ramas de desarrollo a master
 
 # se practico una modificación en el footer y se hizo merge desde el master a footer 
+
+
+    git status
+    git checkout footer
+    git branch
+
+# Se hizo algunos cambios en las notas
+
+    git status
+    git commit -am "Vesión 21 - "Practica"
+    
+    git checkout footer
+    git master
+
+    git merge footer
+
+
+
+
+
+
+
+
+
