@@ -1140,9 +1140,11 @@ En Windows y Linux:
 
 # Se hizo algunos cambios en el bloc de notas
 
-    git commit -am "Vesión 23 - Utilizando Pull Requests en GitHub"
+    git commit -am "Vesión 23.2 - Utilizando Pull Requests en GitHub"
 
     git push origin fix-typo
     
 
-# Vamos a la cuenta de GitHub y nos ubicamos en la rama "fix-typo" y le damos clic en "Comparre & pull request"
+# Vamos a la cuenta de GitHub y nos ubicamos en la rama "fix-typo" y le damos click a la pestaña "pull requests" seguido
+# damos click al boton "New pull requests" a continuación selecionamos "base: master" y "compare: fix-typo" y damos click al 
+# boton "Create pull requests" en la pestaña write escribimos detalle extra de lo que esta pasando.
