@@ -1148,3 +1148,7 @@ En Windows y Linux:
 # Vamos a la cuenta de GitHub y nos ubicamos en la rama "fix-typo" y le damos click a la pestaña "pull requests" seguido
 # damos click al boton "New pull requests" a continuación selecionamos "base: master" y "compare: fix-typo" y damos click al 
 # boton "Create pull requests" en la pestaña write escribimos detalle extra de lo que esta pasando.
+
+# se asigna a un colaborador previamente invitado en la configuración del proyecto, y se realiza el pull requests
+
+# ahora depende del colaborador que acepte, comente o no acepte el pull requests.
