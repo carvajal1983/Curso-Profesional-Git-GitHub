@@ -1,4 +1,4 @@
-###ESTUDIANDO GIT & GITHUB
+##ESTUDIANDO GIT & GITHUB
 
 Estamos estudiando un curso basico de: 
 
