@@ -1,2 +1,12 @@
-# Curso-Profesional-Git-GitHub
-Curso Profesional de Git y GitHub: Para qué sirve Git, cómo usarlo, cómo mejora nuestra productividad y cómo sacarle el mayor provecho.
+###ESTUDIANDO GIT & GITHUB
+
+Estamos estudiando un curso basico de: 
+
+- GIT
+- GITHUB
+
+# Readme.md
+
+![](https://justcodeit.io/wp-content/uploads/Git_icon.svg_.png)
+
+
