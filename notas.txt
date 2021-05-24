@@ -1236,3 +1236,38 @@ En Windows y Linux:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+# Haciendo deployment a un servidor:
+
+# En esta clase veremos como hacer deploy de nuestra aplicación utilizando un servidor.
+
+# No te preocupes si no has comprado un servidor, no es necesario, puedes instalar un servidor local 
+# en tu computadora para realizar pruebas y testear tu aplicación.
+
+# En Platzi tenemos una carrera de servidores que te va a ayudar a automatizar mucho más estas
+# tareas: platzi.com/servidores
+
+
+
+# Estando desde nuestro servidor y habiendo intalado previamente GIT en el linux, se bere realizar un "clone" 
+# al repositorio en cuestión. 
+
+    git clone <url>
+
+# Ejemplo: 
+
+    git clone https://github.com/carvajal1983/Curso-Profesional-Git-GitHub.git
+
+# Cabe resaltar que se debe realizar los pull necesarios paar seguir actualizando las versiones. 
+
+    git pull origin master
