@@ -1271,3 +1271,34 @@ En Windows y Linux:
 # Cabe resaltar que se debe realizar los pull necesarios paar seguir actualizando las versiones. 
 
     git pull origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Ignorar archivos en el repositorio con .gitignore:
+
+# No todos los archivos que agregas a un proyecto deberían ir a un repositorio, por ejemplo cuando tienes 
+# un archivo donde están tus contraseñas que comúnmente tienen la extensión .env o cuando te estás 
+# conectando a una base de datos; son archivos que nadie debe ver.
+
+# por eso se crea en el documento raiz un archivo con el nombre <.gitignore> el cual va a tener todas las 
+# restriciones de archivos a guardar. 
+
+# Se debe tener encuenta que todo lo que se declare en este archivo se va ignorar por el GIT
+
+# Ejemplo si yo quiero ignorar todas la fotos con extesión .png escribo en el documento .gitignore un asterisco
+# mas la un punto y la extesión 
+    
+    *.png
+
+# Asi, todos los archivos que se cargue al proyecto, el GIT no las tendra en cuenta para un git add .
+
