@@ -1468,3 +1468,44 @@ En Windows y Linux:
 # (que guardará en el stash los archivos que no estén en el staging).
 
 # Al aplicar un stash este no se elimina, es buena práctica eliminarlo.
+
+
+
+
+
+
+
+
+
+# Git Clean: limpiar tu proyecto de archivos no deseados: 
+
+# A veces creamos archivos cuando estamos realizando nuestro proyecto que realmente 
+# no forman parte de nuestro directorio de trabajo, que no se deberían agregar y lo sabemos.
+
+# Para saber qué archivos vamos a borrar tecleamos git clean --dry-run
+
+# Para borrar todos los archivos listados (que no son carpetas) tecleamos git clean -f
+
+
+    git clean
+
+    git clean --dry-run
+
+    git clean -f
+
+# El parametro -d ayuda con el borrado de carpetas untracked. 
+# Por ejemplo: git clean -df hubiera borrado la carpeta “css - copia”
+
+    git clean -df
+
+
+# Quiero dejar bien en claro ¿cuando funciona git clean?
+
+# Git clean solo detecta archivos nuevos, no es necesario que se trate de una copia de otro archivo, 
+# suficiente con que sea un archivo nuevo que ustedes hayan creado.
+
+# git clean --dry-run:
+# Simula la eliminación de archivos, ¿tienes dudas de que archivos eliminará?, ejecuta git clean --dry-run, 
+# y cuando estes seguro de que desea eliminarlos, ejecutas git clean -f
+
+# sArchivos que se hayan modificado o editados git clean no interviene aquí.
